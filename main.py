@@ -34,3 +34,32 @@
 #
 # print(f"Our list: {random_list}")
 # print(f"Minimal number: {min_num}")
+
+#task 3: Напишіть функцію, яка визначає кількість простих чисел у списку цілих.
+# Список передається як параметр. Отриманий результат повертається із функції.
+# import random
+#
+# random_list = [random.randint(-9, 37) for _ in range(10)]
+#
+# def is_prime(number):
+#     if number <= 1:
+#         return False
+#     for _ in range(2, number):
+#         if number % _ == 0:
+#             return False
+#     return True
+#
+# def find_primes_in_list(input_list):
+#     prime_numbers = []
+#     for num in input_list:
+#         if is_prime(num):
+#             prime_numbers.append(num)
+#     return prime_numbers
+#
+# print(f"Our list: {random_list}")
+# prime_numbers = find_primes_in_list(random_list)
+# if prime_numbers:
+#     print(f"Here are the prime numbers we found in the list: {prime_numbers}")
+#     print(f"The number of prime numbers: {len(prime_numbers)}")
+# else:
+#     print("No prime numbers in the list, sorry.")
