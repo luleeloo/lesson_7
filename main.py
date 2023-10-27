@@ -94,3 +94,24 @@
 #             print("No such a number in the list. Please try again.")
 #     except ValueError:
 #         print("Wrong format")
+
+# task 5
+# Напишіть функцію, яка отримує два списки як параметр і
+# повертає список, що містить елементи обох списків.
+
+# import random
+#
+# def merge_lists(list1, list2):
+#     for item in list2:
+#         list1.append(item)
+#     return list1
+#
+# # Generating random numbers with a chance of overlap
+# list1 = [random.randint(1, 20) for _ in range(5)]
+# print(f"List 1: {list1}")
+# list2 = [random.randint(15, 27) for i in range(5)]
+# print(f"List 2: {list2}")
+#
+# result = merge_lists(list1, list2)
+# print(f"Merged lists: {result}")
+
