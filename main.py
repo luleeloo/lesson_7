@@ -115,3 +115,17 @@
 # result = merge_lists(list1, list2)
 # print(f"Merged lists: {result}")
 
+# task 6
+# Напишіть функцію, яка обчислює ступінь кожного елемента списку цілих.
+# Значення для ступеня передається як параметр, список також передається як параметр.
+# Функція повертає новий список, який містить отримані результати.
+
+# def exponentiate(list, power):
+#     result = [x ** power for x in list]
+#     return result
+#
+#
+# input_list = [4, 3, 7, 6, 5]
+# exponent = 2
+# our_result = exponentiate(input_list, exponent)
+# print(our_result)
