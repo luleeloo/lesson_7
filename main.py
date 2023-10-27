@@ -63,3 +63,34 @@
 #     print(f"The number of prime numbers: {len(prime_numbers)}")
 # else:
 #     print("No prime numbers in the list, sorry.")
+
+# task 4
+# Напишіть функцію, яка видаляє зі списку ціле задане число.
+# З функції потрібно повернути кількість видаленних елементів.
+
+# import random
+#
+# random_list = [random.randint(1, 20) for _ in range(10)]
+#
+# def remove_num_from_list(input_list, num_to_remove):
+#     count_removed = 0
+#     while num_to_remove in input_list:
+#         input_list.remove(num_to_remove)
+#         count_removed += 1
+#     return count_removed
+#
+# print(f"Our list: {random_list}")
+#
+# while True:
+#     try:
+#         num_to_remove = int(input("Enter the number you want to remove from our list: "))
+#         if num_to_remove in random_list:
+#             count_removed = remove_num_from_list(random_list, num_to_remove)
+#             print("\n")
+#             print(f"Removed number of elements: {count_removed}; here is/are the element(s): {num_to_remove}.")
+#             print(f"Updated list: {random_list}")
+#             break
+#         else:
+#             print("No such a number in the list. Please try again.")
+#     except ValueError:
+#         print("Wrong format")
